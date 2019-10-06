@@ -2,6 +2,7 @@ package io.tpd.kafkaexample;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+//@author : soumil
 public class PracticalAdvice {
     private final String message;
     private final int identifier;
