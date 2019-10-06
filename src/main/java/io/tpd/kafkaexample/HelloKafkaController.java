@@ -27,7 +27,7 @@ public class HelloKafkaController {
     private final String topicName;
     private final int messagesPerRequest;
     private CountDownLatch latch;
-    //need to include swagger api
+    //need to include swagger api - sk7787
     public HelloKafkaController(
             final KafkaTemplate<String, Object> template,
             @Value("${tpd.topic-name}") final String topicName,
